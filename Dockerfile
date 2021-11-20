@@ -1,4 +1,4 @@
-FROM yobasystems/alpine-nodejs:current-armhf
+FROM node:16-alpine
 
 RUN npm install -g localtunnel
 
