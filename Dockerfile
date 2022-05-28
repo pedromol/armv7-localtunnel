@@ -1,5 +1,5 @@
-FROM node:16-alpine
+FROM node:18-alpine
 
 RUN npm install -g localtunnel
 
-ENTRYPOINT ["node", "/usr/bin/lt"]
+ENTRYPOINT ["node", "/usr/local/bin/lt"]
